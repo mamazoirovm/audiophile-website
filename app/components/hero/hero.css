@@ -1,0 +1,86 @@
+:root {
+  --black: #000;
+  --primary: #d87d4a;
+  --bg-white: #f1f1f1;
+  --dark: #101010;
+  --orange: #fbaf85;
+  --fafa: #fafafa;
+  --white: #fff;
+}
+.hero {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 75px;
+}
+.hero-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title-hero {
+  font-size: 36px;
+  color: var(--black);
+  text-transform: uppercase;
+}
+.para-hero{
+    width: 445px;
+    margin-top: 32px;
+}
+.best {
+  color: var(--primary);
+}
+.person {
+  width: 540px;
+  height: 588px;
+  border-radius: 10px;
+  background-image: url("../../../public/person.png");
+  background-size: cover;
+}
+@media screen and (max-width: 1120px){
+  .hero-content{
+    width: 100%;
+    padding: 30px;
+  }
+.person{
+  max-width: 540px;
+}
+}
+@media screen and (max-width: 768px){
+    .hero-content{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 35px;
+        margin-bottom: 55px;
+    }
+    .person{
+        max-width: 688px;
+        height: 300px;
+        background-image: url("../../../public/person768.png");
+    }
+    .title-hero{
+        text-align: center;
+    }
+    .para-hero{
+        width: 570px;
+        text-align: center;
+        padding: 15px;
+    }
+}
+@media screen and (max-width: 576px) {
+  .person{
+    max-width: 100%;
+    height: 300px;
+    background-image: url("../../../public/perosn567.png");
+}
+.para-hero{
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+.hero-content{
+  padding: 15px;
+}
+}

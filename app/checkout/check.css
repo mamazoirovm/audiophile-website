@@ -1,0 +1,476 @@
+:root {
+  --black: #000;
+  --primary: #d87d4a;
+  --bg-white: #f1f1f1;
+  --dark: #101010;
+  --orange: #fbaf85;
+  --fafa: #fafafa;
+  --white: #fff;
+  --border: #cfcfcf;
+}
+.go-back {
+  padding: 40px;
+}
+.checkout {
+  width: 100%;
+  background-color: var(--fafa);
+  margin-bottom: 150px;
+  position: relative;
+}
+.checkout-wrap {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-bottom: 150px;
+}
+.order-forms {
+  display: flex;
+  justify-content: space-between;
+}
+.forms {
+  padding-top: 54px;
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-bottom: 54px;
+  width: 730px;
+  background-color: var(--white);
+  border-radius: 8px;
+  margin-bottom: 150px;
+}
+.forms h1 {
+  color: var(--black);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 112.5% */
+  letter-spacing: 1.143px;
+  text-transform: uppercase;
+}
+.forms p {
+  color: #d87d4a;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 192.308% */
+  letter-spacing: 0.929px;
+  text-transform: uppercase;
+  margin-top: 53px;
+}
+.biling input {
+  border-radius: 8px;
+  border: 1px solid #cfcfcf;
+  background: #fff;
+  padding: 18px 24px;
+  outline: none;
+  width: 310px;
+  font-size: 14px;
+}
+.biling {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin-top: 16px;
+}
+.addres input {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #cfcfcf;
+  background: #fff;
+  padding: 18px 24px;
+  outline: none;
+  width: 310px;
+  font-size: 14px;
+}
+#add {
+  width: 100%;
+}
+label {
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  gap: 9px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 24px;
+}
+.payment {
+  display: flex;
+  justify-content: space-between;
+}
+.radio {
+  border-radius: 8px;
+  border: 1px solid #cfcfcf;
+  background: #fff;
+  padding: 18px 24px;
+  outline: none;
+  width: 310px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+.pay-code input {
+  border-radius: 8px;
+  border: 1px solid #cfcfcf;
+  background: #fff;
+  padding: 18px 24px;
+  outline: none;
+  width: 310px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+.check {
+  color: var(--primary);
+}
+.radio label {
+  margin-top: 0px;
+}
+.order-check {
+  width: 350px;
+  height: max-content;
+  border-radius: 8px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 33px;
+}
+.order-check p {
+  color: #000;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.286px;
+  text-transform: uppercase;
+}
+.products {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.image-product {
+  width: 64px;
+  height: 64px;
+  border-radius: 8px;
+  background: #f1f1f1;
+  overflow: hidden;
+}
+.products h3 {
+  color: #000;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 166.667% */
+}
+.products h5 {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 178.571% */
+  opacity: 0.5;
+}
+.products h6 {
+  color: #000;
+  text-align: right;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 166.667% */
+  opacity: 0.5;
+}
+.prices {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 8px;
+  margin-top: 32px;
+}
+.prices-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+.prices-content h4 {
+  color: #000;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 166.667% */
+  opacity: 0.5;
+}
+.prices-content h2 {
+  color: #000;
+  text-align: right;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.contin {
+  padding: 15px 59px;
+  background-color: var(--primary);
+  margin-top: 32px;
+  color: var(--white);
+  border-radius: 8px;
+}
+.overlay {
+  width: 100%;
+  height: 180vh;
+  padding-top: 58px;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  z-index: 999 !important;
+
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal {
+  width: 540px;
+  height: 713px;
+  border-radius: 8px;
+  background: var(--white);
+  padding: 48px;
+}
+.modal h1 {
+  color: var(--black);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 112.5% */
+  letter-spacing: 1.143px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.modal h6 {
+  color: var(--black);
+  margin-top: 24px;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 166.667% */
+  opacity: 0.5;
+}
+.grand-total {
+  margin-top: 33px;
+  width: 444px;
+  display: flex;
+  height: 270px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.white-left {
+  width: 60%;
+  height: 100%;
+  background-color: var(--bg-white);
+  padding: 25px;
+}
+.black-right {
+  width: 40%;
+  height: 100%;
+  background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding-left: 32px;
+}
+.black-right h4 {
+  color: var(--white);
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.black-right h3 {
+  margin-top: 40px;
+  color: var(--white);
+  opacity: 0.5;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 166.667% */
+}
+.back-to {
+  width: 100% !important;
+  margin-top: 25px !important;
+}
+.lefts {
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+@media screen and (max-width: 1117px){
+  .checkout{
+    width: 100%;
+  }
+  .checkout-wrap{
+    max-width: 100%;
+  }
+  .forms{
+    width: 100%;
+    padding: 35px 44px;
+  }
+}
+@media screen and (max-width: 992px){
+  .checkout-wrap{
+    max-width: 100%;
+  }
+  .order-forms{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+  }
+  .forms{
+    width: 100%;
+    padding: 48px 54px;
+  }
+  .biling label{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 100%;
+  }
+  .biling label input{
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 768px){
+  .order-forms{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+  }
+  .order-forms{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+    padding: 25px;
+  }
+  .forms{
+    max-width: 634px;
+    padding: 28px 24px;
+  }
+  .biling{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .biling label input{
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .biling label{
+    width: 100%;
+  }
+  .order-check{
+    width: 100%;
+    padding: 15px;
+  }
+  .payment{
+    width: 100%;
+    margin-top: 40px;
+  }
+  .pay-code, .addres{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    width: 100%;
+  }
+ 
+  .pay-code  input{
+    width: 100%;
+  }
+  .addres input{
+    width: 100%;
+  }
+  .contin {
+   width: 100%;
+   padding: 18px;
+    background-color: var(--primary);
+    margin-top: 32px;
+    color: var(--white);
+    border-radius: 8px;
+  }
+}
+@media screen and (max-width: 576px){
+  .order-forms{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+  }
+  .order-forms{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+    padding: 35px;
+  }
+  .forms{
+    width: 100%;
+    padding: 18px 34px;
+    display: flex;
+    flex-direction: column;
+  }
+  .biling{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .forms label input{
+    width: 100%;
+  }
+  .radio{
+    width: 100%;
+  }
+  .addres, .payment{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+  .biling label{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 100%;
+  }
+  .biling label input{
+    width: 100%;
+  }
+  .payment label input{
+    width: 100%;
+  }
+  .order-check{
+    width: 100%;
+  }
+  .payment label{
+    margin-bottom: 14px;
+  }
+}
