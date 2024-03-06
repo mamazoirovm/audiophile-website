@@ -1,10 +1,7 @@
-import React, { useEffect, useState } from "react";
 import "../index.css";
 
 import { getProducts } from "../utils/data";
 import Link from "next/link";
-
-
 
 const page = async () => {
   const products = await getProducts();
@@ -28,7 +25,7 @@ const page = async () => {
               <h2>{product.name}</h2>
               <p>{product.description}</p>
 
-              <Link href={`/product/${product.slug}`}>
+              <Link href={`/product/${product.id}`} key={product.id}>
                 <button>See Product</button>
               </Link>
             </div>
@@ -36,6 +33,6 @@ const page = async () => {
         ))}
     </div>
   );
-}
+};
 
-export default page
+export default page;

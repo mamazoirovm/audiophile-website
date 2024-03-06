@@ -1,6 +1,7 @@
+// utils/data.ts
 import { promises as fs } from "fs";
 import { Product } from "../types/typeProduct";
-
+import { GetServerSideProps } from 'next';
 
 
 export const getProducts = async () => {
@@ -8,4 +9,3 @@ export const getProducts = async () => {
   const data: Product[] = JSON.parse(file);
   return data;
 };
-

@@ -110,10 +110,10 @@
   border-radius: 8px;
   cursor: pointer;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .shop {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
 
     padding-left: 39px;
@@ -149,7 +149,16 @@
     width: 100%;
     max-width: 689px;
     height: 352px;
-    margin-bottom: 52px;
+    margin-bottom: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .shop-image img {
+    width: 100%;
+    max-width: 249px;
+    height: 250px;
+    margin-bottom: 92px;
   }
   .shop-txt {
     display: flex;

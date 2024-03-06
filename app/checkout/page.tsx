@@ -3,7 +3,7 @@
 import React, { ChangeEvent, FormEvent, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import Productimage from "../assets/product-xx59-headphones/desktop/image-category-page-preview.jpg";
+import Productimage from "../../public/assets/product-xx99-mark-one-headphones/desktop/image-gallery-3.jpg";
 import "./check.css";
 import { message } from "antd";
 interface InputValues {
